@@ -3,7 +3,7 @@ import Navigation from "./components/Navigation";
 import About from "./components/About";
 import Team from "./components/Team";
 import Recognition from "./components/Recognition";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (

@@ -1,10 +1,11 @@
 import React from "react";
+import "../styles/About.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
 export default function About() {
   return (
-    <Container>
+    <Container fluid className="bg-about">
       <Row>
         <h1>About</h1>
         <div>
