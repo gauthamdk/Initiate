@@ -1,3 +1,63 @@
 .App {
   text-align: center;
 }
+
+.team_color {
+  background: #5680e9;
+}
+
+.about_color {
+  background: #84ceeb;
+}
+
+.recog_color {
+  background: #8860d0;
+}
+
+.section {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team_waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.team_waves svg {
+  position: relative;
+  display: block;
+  width: calc(166% + 1.3px);
+  height: 255px;
+}
+
+.team_waves .shape-fill {
+  fill: #5680e9;
+}
+
+.about_waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.about_waves svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.about_waves .shape-fill {
+  fill: #84ceeb;
+}
