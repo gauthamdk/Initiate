@@ -6,34 +6,46 @@ import Row from "react-bootstrap/Row";
 export default function About() {
   return (
     <Container fluid className="about_color section p-5">
-      <Row>
-        <h1>Why Initiate</h1>
-        <div>
+      <Row className="d-flex justify-content-center">
+        <h1 className="pb-3">Why Initiate</h1>
+        <div className="text-center w-75">
           <p>
-            Did adulting ever overwhelm you?
+            Did <b>adulting</b> ever overwhelm you?
             <br />
             Did you ever find yourself expending unnecessary amounts of time and
-            energy trying to understand taxes and health insurance?
+            energy trying to understand <b>taxes</b> and <b>health insurance</b>
+            ?
           </p>
-          Why is it that these crucial skills are never taught to us but the
-          Pythagoras Theorem is? It’s ironic how so many students spend so much
-          time, money and effort in school and yet are not aware of skills that
-          are extremely essential in their lives. Skills such as managing your
-          own finances or understanding how taxes work, are something that is
-          never taught to us. At Initiate, we believe that crucial skills need
-          to be taught crucially soon. To the same end, our mobile e-learning
-          app is designed to help students learn essential adulting skills in
-          the quickest and simplest manner possible. And not just that, we
-          believe that learning needs to be made fun and is a process that needs
-          to be revolutionized to suit the needs of today’s students. What makes
-          it fun? All of our content is designed to be in the manner of a game.
-          Users choose the topics that they want to learn about and essentially
-          play through levels to understand the underlying concepts. Where is
-          the revolution? Users have the ability to share the courses that they
-          have completed with their friends on the app and can, in return, earn
-          rewards and cashback. So you quite literally learn and earn
-          simultaneously. With Initiate, you can prepare yourself for life in
-          the best manner possible!
+          <p>
+            It’s ironic how so many students spend so much time, money and
+            effort in school and yet are not aware of skills that are{" "}
+            <b>exteremely essential</b> in their lives.
+          </p>
+          <p>
+            Skills such as managing your own finances or understanding how taxes
+            work, are never taught to us.
+          </p>
+          <p>
+            At <b>Initiate</b>, we believe that <b>crucial skills</b> need to be
+            taught <b>crucially soon</b>.
+          </p>
+          <p>
+            To the same end, our <b>mobile e-learning app</b> is designed to
+            help students learn essential adulting skills in the quickest and
+            simplest manner possible.
+          </p>
+          <p>
+            With our <b>gamified</b> lessons and quizzes, you can soar through
+            important life skills and <b>earn</b> points.
+          </p>
+          <p>
+            Compete with friends, and earn rewards and cashback. So you quite
+            literally learn and earn!
+          </p>
+          <p>
+            With <b>Initiate</b>, you can prepare yourself for life in the best
+            manner possible!
+          </p>
         </div>
       </Row>
     </Container>
