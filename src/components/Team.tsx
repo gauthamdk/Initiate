@@ -2,16 +2,25 @@ import React from "react";
 import "../styles/App.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import gautham from "../assets/gautham.jpg";
+import armaan from "../assets/armaan.jpg";
 
 export default function Team() {
   return (
     <Container fluid className="team_color section p-5">
       <Row>
-        <h1>Team</h1>
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis
-          voluptates error non quo nulla saepe sed ratione, ducimus sequi labore
-          pariatur quae alias repellat consectetur officiis deleniti vero ex!
+        <h1 className="team_heading pb-3">Team</h1>
+        <div className="d-flex justify-content-between">
+          <div style={{ width: "250px" }} className="">
+            <h3>Armaan Agrawal</h3>
+            <img src={armaan} className="rounded-circle img-fluid" />
+            <h5 className="pt-3">CEO & Co-Founder</h5>
+          </div>
+          <div style={{ width: "250px" }} className="">
+            <h3>Gautham Dinesh</h3>
+            <img src={gautham} className="rounded-circle img-fluid" />
+            <h5 className="pt-3">CTO & Co-Founder</h5>
+          </div>
         </div>
       </Row>
       <div className="about_waves">
