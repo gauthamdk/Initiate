@@ -9,7 +9,9 @@ export default function Team() {
   return (
     <Container fluid className="team_color section p-5">
       <Row>
-        <h1 className="team_heading pb-3">Team</h1>
+        <a id="team">
+          <h1 className="team_heading pb-3">Team</h1>
+        </a>
         <div className="d-flex justify-content-between">
           <div style={{ width: "250px" }} className="">
             <h3>Armaan Agrawal</h3>

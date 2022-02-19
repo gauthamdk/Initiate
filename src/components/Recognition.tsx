@@ -2,16 +2,22 @@ import React from "react";
 import "../styles/App.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import innovention from "../assets/innovention.webp";
 
 export default function Recognition() {
   return (
     <Container fluid className="recog_color section p-5">
       <Row>
-        <h1>Recognition</h1>
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis
-          voluptates error non quo nulla saepe sed ratione, ducimus sequi labore
-          pariatur quae alias repellat consectetur officiis deleniti vero ex!
+        <h1 className="pb-3 pt-5">Recognition</h1>
+        <div className="d-flex justify-content-between">
+          <div style={{ width: "300px" }}>
+            <h3>NYUAD Innovention</h3>
+            <img className="img-fluid" src={innovention} />
+          </div>
+          <div style={{ width: "300px" }}>
+            <h3>NYU Bootcamp</h3>
+            <img className="img-fluid" src={innovention} />
+          </div>
         </div>
       </Row>
       <div className="team_waves">

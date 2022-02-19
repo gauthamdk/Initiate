@@ -7,7 +7,9 @@ export default function About() {
   return (
     <Container fluid className="about_color section p-5">
       <Row className="d-flex justify-content-center">
-        <h1 className="pb-3">Why Initiate</h1>
+        <a id="home">
+          <h1 className="pb-3">Why Initiate</h1>
+        </a>
         <div className="text-center w-75">
           <p>
             Did <b>adulting</b> ever overwhelm you?

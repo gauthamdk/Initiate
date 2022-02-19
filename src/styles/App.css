@@ -41,8 +41,8 @@
 .team_waves svg {
   position: relative;
   display: block;
-  width: calc(166% + 1.3px);
-  height: 255px;
+  width: calc(163% + 1.3px);
+  height: 130px;
 }
 
 .team_waves .shape-fill {
