@@ -96,7 +96,7 @@
   position: relative;
   display: block;
   width: calc(115% + 1.3px);
-  height: 49px;
+  height: 20px;
   transform: rotateY(180deg);
 }
 
