@@ -3,6 +3,7 @@ import "../styles/App.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import innovention from "../assets/innovention.webp";
+import bootcamp from "../assets/bootcamp.png";
 
 export default function Recognition() {
   return (
@@ -16,7 +17,7 @@ export default function Recognition() {
           </div>
           <div style={{ width: "300px" }}>
             <h3>NYU Bootcamp</h3>
-            <img className="img-fluid" src={innovention} />
+            <img className="img-fluid" src={bootcamp} />
           </div>
         </div>
       </Row>
