@@ -3,6 +3,16 @@
 .App {
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  color: rgb(45, 44, 44);
+}
+
+.footer {
+  background: #133da7;
+  color: rgb(126, 124, 124);
+}
+
+.footer a {
+  color: inherit;
 }
 
 .team_color {
@@ -11,6 +21,10 @@
 
 .about_color {
   background: #84ceeb;
+}
+
+.navbar {
+  background: #c5e0eb;
 }
 
 .recog_color {
@@ -67,4 +81,25 @@
 
 .about_waves .shape-fill {
   fill: #84ceeb;
+}
+
+.navbar_waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.navbar_waves svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 49px;
+  transform: rotateY(180deg);
+}
+
+.navbar_waves .shape-fill {
+  fill: #c5e0eb;
 }

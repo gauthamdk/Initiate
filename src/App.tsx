@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import About from "./components/About";
 import Team from "./components/Team";
 import Recognition from "./components/Recognition";
+import Footer from "./components/Footer";
 import "./styles/App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Team />
       <Recognition />
+      <Footer />
     </div>
   );
 }
